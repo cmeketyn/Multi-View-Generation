@@ -1,0 +1,12 @@
+Modèle GMV (Generative MultiView)
+
+Modification des architectures des réseaux pour les adapter à MNIST
+Réduction du nombre de paramètres total
+Remplacement de la loss (MSE plutôt que binary crossentropy)
+
+Entraînement :
+- batchSize de 128
+- environ 100 epochs
+- learning rates :
+    - générateur : 1e-3
+    - discriminateur : 5e-5
