@@ -1,0 +1,11 @@
+Modèle CGMV (Conditional Generation MultiView)
+
+- Reprise de l'architecture du GMV adaptée à MNIST
+
+Entraînement :
+- batchSize de 128
+- environ 100 epochs
+- utilisation des exemples positifs pour générer les négatifs à chaque batch
+- learning rates :
+    - générateur et encodeur : 1e-4
+    - discriminateur : 5e-5
