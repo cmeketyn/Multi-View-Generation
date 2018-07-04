@@ -1,0 +1,16 @@
+Modèle AECP (Auto-Encodeur Classifieur Prédicteur)
+
+Changements depuis le modèle initial :
+- remplacement du classifieur par un discriminateur de CGAN
+- suppression de l'entraînement de l'auto-encodeur
+- séparation de l'entraînement du prédicteur et de l'encodeur / générateur à chaque batch
+- réduction des tailles des vecteurs latents ((50,50) à (10,15))
+
+Entraînement sur MNIST:
+- batchSize de 128 pour le discriminateur et 256 pour les autres réseaux
+- environ 70 epochs
+- utilisation de toute la base de données d'entraînement de MNIST
+- learning rates initiaux :
+    - discriminateur : 1e-6
+    - encodeur / générateur : 1e-4
+    - prédicteur : 2e-4
