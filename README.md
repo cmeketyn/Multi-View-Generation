@@ -1,5 +1,5 @@
 Les notebooks des différents modèles sont dans chaque dossier (GMV, CGMV et AECP).
-Le notebook Multi_View_Generation.ipynb à la racine est un notebook courant et regroupe tous les modèles et toutes les fonctions d'entraînement et de test.
+Le notebook Multi_View_Generation.ipynb à la racine est un notebook courant et regroupe tous les modèles et toutes les fonctions d'entraînement et de test (ainsi que du code supplémentaire à la fin : des anciennes cellules que j'ai gardé car les architectures des modèles y sont plus claires, et "HS" : le code utilisé pour entraîner le modèle GMV sur des images de cartes Hearthstone).
 
 Tous les codes ont été utilisés sur Colab avec un Google drive. Pour lancer les codes sans avoir à les modifier :
 - créer deux dossiers dans le Google drive : "3Dchairs" et "Sauvegardes_poids" ;
