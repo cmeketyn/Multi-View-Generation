@@ -3,7 +3,7 @@ Le notebook Multi_View_Generation.ipynb à la racine est un notebook courant et 
 
 Tous les codes ont été utilisés sur Colab avec un Google drive. Pour lancer les codes sans avoir à les modifier :
 - créer deux dossiers dans le Google drive : "3Dchairs" et "Sauvegardes_poids" ;
-- mettre dans 3DChairs le fichier chaises.csv (le fichier faisant 7Go, à ne faire que si nécessaire) ;
+- mettre dans 3DChairs le fichier chaises.csv (le fichier faisant 7Go, je n'ai pas pu l'upload ici. Je peux le partager depuis mon drive si besoin, il n'est pas nécessaire pour entraîner sur MNIST) ;
 - dans Sauvegardes_poids, créer deux dossiers "MNIST" et "3Dchairs", et dans chacun créer les dossiers "AECP", "GMV" et "CGMV".
 
 
